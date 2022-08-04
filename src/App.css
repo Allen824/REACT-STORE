@@ -1,0 +1,109 @@
+.App {
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.App div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 100%;
+  text-align: center
+}
+
+.PageButton {
+  width: 20%;
+  padding: 2px;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+.App-header p {
+  border: 1px solid white;
+  padding: 2px;
+}
+
+.Info {
+  justify-content: center;
+  color: white;
+  background-color: #282c34;
+  padding: 2px;
+
+}
+
+.ItemList .ViewCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #282c34;
+}
+
+.ItemList .Section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: antiquewhite;
+  padding: 15px;
+  
+}
+
+.FootBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.AppInfo {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.Popup {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+}
+
+.Popup .Box {
+  width: 30%;
+  background-color: white;
+  border: 2px solid black;
+  display: block;
+}
+
+.Popup .Box .Exit {
+  width: 100%;
+  align-items: flex-end;
+}
+
+.Popup .Box .Exit .ExitButton {
+  width: 10%;
+}
+
+.Popup .Box .ErrorMessage {
+  padding-top: 10px;
+}
+
+.Checkout .ItemCheckout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid black;
+  background-color: antiquewhite;
+  padding: 15px;
+}
